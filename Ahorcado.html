@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" type="text/css" href="Ahorcado.css" media="screen" />
+</head>
+<body>
+    
+    <header>
+        
+        <pre id="refran_rellenar" style= "font-size: 20px" >Esperando...<img id="baile" src="suici.gif" alt="baile"></pre>
+        
+
+        <div>
+            <button onclick="myFunction()">JUGAR</button>
+        </div>
+        <br>
+        <form >
+            <br/>
+            <input id= "get_Letter" type="text" name="Introduce una letra"  placeholder="Introduce una letra..." value="">
+            <button type="button" onclick="myFunction1()">Submit</button>
+        </form>
+        <br>
+        <div>
+            <p>VIDAS</p>
+            <p id="vidas"></p>
+        </div>
+
+        <br>
+
+        <div id="reiniciar"></div>
+
+        <br>
+
+        <div id = "ganas"></div> 
+    </header>
+    <script src="Ahorcado.js"></script>  
+</body>
+</html>

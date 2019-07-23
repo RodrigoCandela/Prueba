@@ -1,0 +1,36 @@
+header {
+    margin-left: 10%;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    background-color:white;
+    border-radius: 40px;
+    width: 80%;
+    opacity: 0.98;
+}
+div{
+    margin-left: 45%;
+    margin-right: 45%;
+    
+}
+form {
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color:white;
+}
+body {
+    background-image: url("base.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+pre {
+    padding-top: 5%;
+    text-align: center;
+    clear: both;
+    font-weight: bold;
+}
+#baile{
+    height: 80px;
+    width: 100px;
+}
